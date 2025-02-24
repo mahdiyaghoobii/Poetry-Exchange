@@ -1,30 +1,30 @@
-# Persian Poetry Search Tool
+# ابزار جستجوی شعر فارسی
 
-## Description
-This Python script retrieves random Persian poems using the **Ganjgah API** and searches for a couplet that starts with a given letter. It repeatedly fetches new poems until it finds a match. The tool is useful for Persian poetry enthusiasts and can also be adapted for **"مشاعره"** (Persian poetry game).
+## توضیحات
+این اسکریپت پایتون با استفاده از **API گنجگاه** اشعار تصادفی فارسی را بازیابی کرده و به دنبال بیتی می‌گردد که با حرف مشخص‌شده توسط کاربر شروع شود. این ابزار برای علاقه‌مندان به شعر فارسی و همچنین **مشاعره** کاربرد دارد.
 
-## Features
-- Fetches random Persian poems.
-- Searches for a couplet that begins with the user-specified letter.
-- Displays the found couplet along with the poet's name.
-- Handles API request errors gracefully.
+## ویژگی‌ها
+- دریافت اشعار تصادفی فارسی.
+- جستجوی بیتی که با حرف واردشده توسط کاربر شروع می‌شود.
+- نمایش بیت یافت‌شده به همراه نام شاعر.
+- مدیریت خطاهای مربوط به درخواست‌های API.
 
-## Installation
-To use this script, ensure you have Python installed and install the required package:
+## نصب
+برای استفاده از این اسکریپت، اطمینان حاصل کنید که پایتون روی سیستم شما نصب شده است و بسته موردنیاز را نصب کنید:
 ```sh
 pip install requests
 ```
 
-## Usage
-Run the script and enter a Persian letter to search for:
+## نحوه استفاده
+اسکریپت را اجرا کرده و یک حرف فارسی برای جستجو وارد کنید:
 ```sh
 python script.py
 ```
-Then, input a single Persian letter when prompted:
+سپس، یک حرف فارسی را در پاسخ به درخواست وارد کنید:
 ```sh
 یک حرف وارد کنید: ش
 ```
-The script will fetch and display a matching couplet if found:
+در صورتی که بیت مناسب یافت شود، نتیجه نمایش داده می‌شود:
 ```
 نتیجه:
 شب است و شاهد و شمع و شراب و شیرینی
@@ -36,10 +36,10 @@ The script will fetch and display a matching couplet if found:
 - Python 3+
 - `requests` library
 
-## Notes
-- The script continuously fetches new poems until it finds a match.
-- The API responses might change over time, so ensure the API endpoints are active.
-- If the API is unreachable, the script retries automatically.
+## نکات
+- این اسکریپت به‌طور مداوم اشعار جدید را تا زمانی که بیت مناسبی پیدا کند، بازیابی می‌کند.
+- پاسخ‌های API ممکن است در طول زمان تغییر کنند، بنابراین مطمئن شوید که مسیرهای API فعال هستند.
+- در صورت در دسترس نبودن API، اسکریپت به‌طور خودکار دوباره تلاش می‌کند.
 
 ## License
 This project is open-source and available under the MIT License.
