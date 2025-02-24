@@ -1,8 +1,5 @@
 import requests
 
-def get_first_char(text):
-    return text[0] if text else None
-
 def fetch_poem():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
